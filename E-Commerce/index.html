@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Fantasy</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Navigation bar menu -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="Burger Logo.png" href="index.html" alt="logo" style="height: 50px; width: 50px;">
+        </div>
+        <ul class="navbar-container">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">CATEGORY</a></li>
+            <li>
+                <button class="navbar-button"><a href="">LOGIN</a></button>
+            </li>
+        </ul>
+    </div>
+    <!-- Slide pictures container -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="Burger-item-1.jpg">
+            <div class="text">Tender and Juicy Burger</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="Burger-item-2.jpg">
+            <div class="text">Get Chill</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="Burger-item-3.jpg">
+            <div class="text">Feel Relax</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="Burger-item-4.jpg">
+          <div class="text">Food so Good</div>
+        </div>
+        <div class="prev-next-button">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <br>
+    <!-- Category Container -->
+    <h2>Menu Category</h2><br>
+    <div class="menu-category-container">
+        <div>
+            <img src="Menu-1.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>This section is all about burgers blah blah blah</p>
+            <div>
+                <a href="">GO TO THIS CATEGORY</a>
+            </div>
+        </div>
+        <div>
+            <img src="Menu-2.jpg" alt="Footlong">
+            <h3>Footlong</h3>
+            <p>This section is all about footlong blah blah blah</p>
+            <div>
+                <a href="">GO TO THIS CATEGORY</a>
+            </div>
+        </div>
+        <div>
+            <img src="Menu-3.jpg" alt="Drinks">
+            <h3>Drinks</h3>
+            <p>This section is all about drinks blah blah blah</p>
+            <div>
+                <a href="">GO TO THIS CATEGORY</a>
+            </div>
+        </div>
+        <div> 
+            <img src="Menu-4.jpg" alt="Customize">      
+            <h3>Customize B/F</h3>
+            <p>This section is all about customize your burger and footlong blah blah blah</p>
+            <div>
+                <a href="">CREATE YOUR OWN...</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
